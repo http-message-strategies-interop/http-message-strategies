@@ -27,6 +27,9 @@
             "Interop\\Http\\Message\\Strategies\\": "tests"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
@@ -56,7 +59,10 @@
         "sugared-rim/cs": "^2.0"
     },
     "scripts": {
-        "build": "php ./bin/build.php",
+        "build": [
+            "@clean",
+            "php ./bin/build.php"
+        ],
         "clean": "rm -rf build/ src/* .php_cs.cache",
         "lint": [
             "sugared-rim-cs"
