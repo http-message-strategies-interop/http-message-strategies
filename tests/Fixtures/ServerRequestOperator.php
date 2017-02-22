@@ -2,12 +2,12 @@
 
 namespace Interop\Http\Message\Strategies\Fixtures;
 
-use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class ServerRequestResponse implements \Interop\Http\Message\Strategies\ServerRequestResponseInterface
+class ServerRequestOperator implements \Interop\Http\Message\Strategies\ServerRequestOperatorInterface
 {
     public function __invoke(ServerRequestInterface $request)
     {
+        return $request;
     }
 }

@@ -6,9 +6,9 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
- * Defines a contract for algorithms which accept a request argument and produce a response.
+ * Defines a contract for functions which accept a request argument and produce a response.
  */
-interface RequestResponseInterface
+interface RequestHandlerInterface
 {
     /**
      * Process a request and return the produced response.

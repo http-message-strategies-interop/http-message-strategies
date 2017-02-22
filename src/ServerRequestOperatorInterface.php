@@ -5,9 +5,9 @@ namespace Interop\Http\Message\Strategies;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
- * Defines a contract for algorithms which accept a server request argument and produce a server request.
+ * Defines a contract for functions which accept a server request argument and produce a server request.
  */
-interface ServerRequestServerRequestInterface
+interface ServerRequestOperatorInterface
 {
     /**
      * Process a request and return the produced server request.
