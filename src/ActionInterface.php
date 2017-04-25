@@ -8,7 +8,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Defines a contract for functions which accept a request argument and produce a response.
  */
-interface RequestHandlerInterface
+interface ActionInterface
 {
     /**
      * Process a request and return the produced response.
