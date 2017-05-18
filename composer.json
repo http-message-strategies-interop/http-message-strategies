@@ -58,6 +58,9 @@
         "php-fig/fig-standards": "*"
     },
     "scripts": {
+        "bump": [
+            "php ./bin/bump.php latest"
+        ],
         "build": [
             "@clean",
             "php ./bin/build.php"
