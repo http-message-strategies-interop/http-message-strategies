@@ -39,13 +39,13 @@
         {
             "type": "package",
             "package": {
-              "name": "php-fig/fig-standards",
-              "version": "0.3.0",
-              "source": {
-                "url": "git@github.com:http-message-strategies-interop/fig-standards.git",
-                "type": "git",
-                "reference": "http-message-strategies-0.3.0"
-              }
+                "name": "php-fig/fig-standards",
+                "version": "0.3.0",
+                "source": {
+                    "url": "git@github.com:http-message-strategies-interop/fig-standards.git",
+                    "type": "git",
+                    "reference": "http-message-strategies-0.3.0"
+                }
             }
         }
     ],
