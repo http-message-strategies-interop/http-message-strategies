@@ -40,11 +40,11 @@
             "type": "package",
             "package": {
                 "name": "php-fig/fig-standards",
-                "version": "0.3.0",
+                "version": "0.4.0",
                 "source": {
                     "url": "git@github.com:http-message-strategies-interop/fig-standards.git",
                     "type": "git",
-                    "reference": "http-message-strategies-0.3.0"
+                    "reference": "http-message-strategies-0.4.0"
                 }
             }
         }
