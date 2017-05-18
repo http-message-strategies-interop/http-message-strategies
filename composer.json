@@ -55,8 +55,7 @@
     },
     "require-dev": {
         "league/commonmark": "^0.15.3",
-        "php-fig/fig-standards": "*",
-        "sugared-rim/cs": "^2.0"
+        "php-fig/fig-standards": "*"
     },
     "scripts": {
         "build": [
